@@ -13,6 +13,7 @@ class Users extends AbstractWpEndpoint
      */
     protected function getEndpoint()
     {
-        return '/wp-json/wp/v2/users';
+        // return '/wp-json/wp/v2/users';
+        return '/index.php?rest_route=/wp/v2/users';
     }
 }

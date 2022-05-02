@@ -13,6 +13,7 @@ class PostTypes extends AbstractWpEndpoint
      */
     protected function getEndpoint()
     {
-        return '/wp-json/wp/v2/types';
+        // return '/wp-json/wp/v2/types';
+        return '/index.php?rest_route=/wp/v2/types';
     }
 }

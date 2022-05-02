@@ -13,6 +13,7 @@ class Categories extends AbstractWpEndpoint
      */
     protected function getEndpoint()
     {
-        return '/wp-json/wp/v2/categories';
+        // return '/wp-json/wp/v2/categories';
+        return '/index.php?rest_route=/wp/v2/categories';
     }
 }
